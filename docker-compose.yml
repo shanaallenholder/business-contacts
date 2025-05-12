@@ -1,10 +1,10 @@
 services:
  api: # Service 1
-   build: ./server
-   ports:
-    -3000:3000
+  build: ./server
+  ports:
+    - "3000:3000"
 
  client: # Service 2
   build: ./client
   ports: 
-    -1234:1234
+    - "1234:1234"
